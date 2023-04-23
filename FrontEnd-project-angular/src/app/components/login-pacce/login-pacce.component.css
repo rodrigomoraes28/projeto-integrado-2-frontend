@@ -1,0 +1,311 @@
+:root{
+  --pacce: linear-gradient(
+    268.72deg, #00B1F2 38.44%, #96D032 46.8%, #FF8728 53.81%, #FF2E34 59.46%, #FFF200 66.24%, #00A759 72.34%
+    )  
+} 
+
+
+image.png
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 1920px;
+  max-height: 1080px;
+  display: grid;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.div-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.div-header img {
+  max-width: 40px;
+}
+
+p .negrito {
+  background-image:linear-gradient(
+    268.72deg, #00B1F2 38.44%, #96D032 46.8%, #FF8728 53.81%, #FF2E34 59.46%, #FFF200 66.24%, #00A759 72.34%
+    )  ;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+   
+  gap: 40px;
+   
+}
+
+p .texto-colorido {
+  background-image:linear-gradient(
+    268.72deg, #00B1F2 38.44%, #96D032 46.8%, #FF8728 53.81%, #FF2E34 59.46%, #FFF200 66.24%, #00A759 72.34%
+    )  ;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* color: transparent; */
+  
+
+
+}
+
+.content-right-bottom p{
+  
+ 
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+
+color: #56819F;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 16px;
+  
+}
+
+.content-left{
+ 
+max-width: 960px;
+background: #F2F2F2;
+}
+
+.content-left header {
+  height: 120px;
+}
+
+.content-left p {
+  margin: 0px;
+}
+
+.content-left h1 {
+  margin-bottom: 4px;
+}
+
+.container .content-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 960px;
+
+}
+
+.content-right nav {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+  height: 80px;
+  
+/* position: absolute; */
+ 
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+
+
+color: #424242;
+}
+
+.content-right .content-right-bottom {
+  flex: 1;
+}
+
+.content-right .content-right-bottom p{
+  display: flex;
+  gap: 4px; 
+  align-items: center;
+  justify-content: center;
+
+}
+ 
+
+.container .content-left .botoes .registrar{
+ 
+background-color: transparent;
+border-radius: 2.81rem;
+width: 261px;
+height: 75px;
+color: #333333;
+
+border: 20px solid;
+
+border-image-source: linear-gradient(268.72deg, #00B1F2 38.44%, #96D032 46.8%, #FF8728 53.81%, #FF2E34 59.46%, #FFF200 66.24%, #00A759 72.34%);
+ 
+
+position: absolute;
+width: 179px;
+height: 42px;
+left: 557px;
+top: 759px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+
+box-sizing: border-box;
+
+position: absolute;
+width: 261px;
+height: 75px;
+left: 514px;
+top: 749px;
+
+border-radius: 45.5814px;
+/* Gray 1 */
+
+color: #333333;
+}
+
+.container .content-left .botoes .entrar{
+
+  position: absolute;
+  width: 261px;
+  height: 76px;
+  left: 125px;
+  top: 748px;
+  
+  /* Gray 1 */
+  
+  background: #333333;
+  border-radius: 45.5814px;
+
+  position: absolute;
+width: 123px;
+height: 39px;
+left: 193px;
+top: 762px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+position: absolute;
+width: 261px;
+height: 76px;
+left: 125px;
+top: 748px;
+
+/* Gray 1 */
+
+background: #333333;
+border-radius: 45.5814px;
+}
+
+.botoes{
+  
+  display: flex;
+  gap: 389px;
+}
+
+.dados{ 
+
+box-sizing: border-box;
+
+display: grid;
+
+
+width: 664px;
+height: 84px;
+ 
+
+background: #F2F2F2; 
+border: 1px solid #C1BBBB;
+ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+
+color: #424242;
+
+
+}
+.bem-vinda{
+  width: 35ch;
+
+}
+.container .content-left .bem-vinda{
+
+
+/* position: absolute; */
+
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+ 
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+
+color: #424242;
+
+
+}
+
+.cargos{
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+
+.container .content-left .botoes-e-esqueceu-senha{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} 
+
+
+.container .content-left .esqueceu-a-senha{
+ 
+ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: rgba(0, 0, 0, 0.61);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
